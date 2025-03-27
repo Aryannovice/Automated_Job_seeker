@@ -1,7 +1,7 @@
 streamlit
 python-dotenv
 google-generativeai
-pypdf
+PyPDF2==3.0.0
 regex
 plotly
 numpy
