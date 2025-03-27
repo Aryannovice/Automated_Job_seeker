@@ -5,7 +5,7 @@ st.set_page_config(page_title="ResumeATS Pro", layout="wide")
 import os
 from dotenv import load_dotenv
 import google.generativeai as genai
-from PyPDF2 import PdfReader
+from pypdf import PdfReader
 import re
 from collections import Counter
 import hashlib
